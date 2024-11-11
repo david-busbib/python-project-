@@ -1,0 +1,16 @@
+YOGEV and DAVID
+In this game we use a lot of buitiful things .
+The first of them was when we arrive to one minute the time label change its color to red
+And when we arrive to half a minute the label time change its color to orange .
+we also menage to create three different screen that each of them significant something alse .
+the first screen is the home screen there you can start a game and also see how to play the game .
+in the second screen you can play the game.
+We also add a pisher that when you pass on ne letter the cube became white and return to is color when finish .
+To see if the word match to the dict you got a botton of check word that also reset the current word speaking .
+The third screen is before the end of the game ,
+when time is finish you will get a message with the score you have and ,
+a question if you want to start a new game or end the game ,while the botton of end game will stop the game and the
+other one will start for you a new game with new score and new time
+We also add two photo to the end game screen and the first screen .
+Here is our game .
+
