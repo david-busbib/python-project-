@@ -1,0 +1,22 @@
+This project is a simple implementation of the classic Snake game, developed as part of the Computer Science introduction course assignment. The goal is to implement the game mechanics, including snake movement, apple collection, and bomb avoidance, using Python.
+
+Project Structure
+snake_main.py: The main executable file that contains the game loop and calls to the functions that control the game’s core functionalities.
+game_display.py: A utility module provided for displaying the game. It should not be modified and is required for the visual aspects of the game.
+game_parameters.py: Contains preset parameters and functions to manage randomness in the game, including apple and bomb placements. This file should also remain unchanged.
+AUTHORS: A file listing the login IDs of the two collaborators.
+Game Mechanics
+Game Loop:
+
+The game runs in continuous loops, updating the snake's position, handling input, rendering objects, and updating the score.
+Game Objects:
+
+Snake: Moves in a grid, growing in length when it eats apples and ending the game if it collides with itself, walls, or bombs.
+Apple: Randomly placed on the grid; each apple adds to the score and increases the snake’s length when eaten.
+Bomb: Randomly placed with a countdown timer. When the timer ends, it explodes with a specified radius. If the snake contacts a bomb or its blast radius, the game ends.
+Input Handling:
+
+Arrow keys control the snake’s direction, and opposite directions cannot be chosen consecutively (to avoid instant self-collision).
+Running the Game
+Ensure that snake_main.py is in the same directory as game_display.py and game_parameters.py.
+Run snake_main.py to start the game. The display interface handles rendering, and the main loop in snake_main.py controls game flow and updates.
