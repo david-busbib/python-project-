@@ -1,0 +1,24 @@
+This project involves implementing a binary decision tree to work with diagnostic data, allowing for binary classification based on symptoms. This exercise helps build a strong understanding of binary tree structures and decision trees.
+
+Project Structure
+ex11.py: The main file for implementing the Decision Tree logic. It contains:
+Node and Record classes for representing the tree nodes and individual health records.
+Diagnoser class that manages the decision tree and provides various methods for diagnosis, success rate calculations, and tree optimization.
+Classes and Methods
+Node
+Represents a node in the decision tree, holding data and references to child nodes.
+
+
+Methods:
+diagnose(symptoms): Diagnoses based on given symptoms by traversing the decision tree.
+calculate_success_rate(records): Calculates the accuracy of the tree against known records.
+all_illnesses(): Returns a list of illnesses in the tree, sorted by frequency.
+paths_to_illness(illness): Finds all paths in the tree leading to a specified illness.
+Additional Functions
+build_tree(records, symptoms): Constructs a decision tree based on given records and symptoms, optimizing for matching symptoms to the correct diagnosis.
+optimal_tree(records, symptoms, depth): Constructs an optimal tree that limits the tree’s depth for better generalization.
+minimize(remove_empty=False): Simplifies the tree by removing redundant nodes and balancing the structure.
+Running the Code
+Place your data file in the project directory.
+Use Diagnoser methods to interact with the decision tree for diagnosis and tree manipulation.
+
